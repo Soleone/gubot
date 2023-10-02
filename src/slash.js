@@ -51,6 +51,10 @@ export function registerListeners(client) {
       }
     }
   });
+
+  // client.on(Events.MessageCreate, message => {
+  //   console.log(`${message.author.tag} sent: ${message.content}`);
+  // });
 }
 
 export function registerEverything(commands, client, discord_token, client_id) {
